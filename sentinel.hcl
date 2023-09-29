@@ -11,3 +11,8 @@ policy "check-ec2-environment-tag" {
   source = "./check-ec2-environment-tag.sentinel"
   enforcement_level = "advisory"
 }
+
+policy "restrict-static-credentials" {
+  source = "./restrict-static-credentials.sentinel"
+  enforcement_level = "advisory"
+}
